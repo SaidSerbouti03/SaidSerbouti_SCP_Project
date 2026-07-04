@@ -1,0 +1,1210 @@
+:: StoryTitle
+Progetto SCP
+
+
+:: StoryData
+{
+  "ifid": "BA1DC955-9759-49D8-B7FE-B8AABDD62D15",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Inizia",
+  "zoom": 1
+}
+
+
+:: \ "Venga con me." {"position":"300,3175","size":"100,100"}
+
+[[Torna all'ufficio]]
+
+
+
+:: \ Accedi al pannello di osservazione remota {"position":"175,7675","size":"100,100"}
+Lo schermo mostra Giove in tempo reale via satellite.
+Nell'atmosfera, qualcosa si muove. Non come una tempesta. Con una direzione.
+L'agente Torres è al pannello. Non ti saluta. Fissa lo schermo.
+"Dura da tre giorni," dice. "Si sta avvicinando alla superficie atmosferica. Cosa che non fa mai."
+Una pausa.
+"E sta emettendo un segnale."
+
+[["Che tipo di segnale?" ]]
+
+[["Dobbiamo interferire?"]]
+
+[[Osservi lo schermo in silenzio.]]
+
+
+:: \ Vai al corridoio C-7 {"position":"575,2725","size":"100,100"}
+Lo vedi da lontano.
+<img src="https://i.pinimg.com/736x/99/f2/d6/99f2d6b2b0715cd5d16d92b59d50ce48.jpg">
+Una figura in abiti da medico della peste medievale — becco lungo, mantello nero, guanti — ferma in mezzo al corridoio fluorescente. Immobile come se stesse aspettando qualcosa.
+O qualcuno.
+Ti vede.
+"Ah." La voce è calma. Quasi soddisfatta. "Un altro."
+Non si muove.
+Non si avvicina.
+Aspetta.
+
+[["Dottore. Deve tornare alla sua cella."]]
+
+[["Cosa sta facendo qui fuori?"]]
+
+[[Non dici niente. Lo guardi.]]
+
+
+:: \ Vai al settore giallo\  {"position":"100,4625","size":"100,100"}
+
+
+
+:: "Abbastanza da smettere di fare domande." {"position":"1325,1375","size":"100,100"}
+[[Finale A]] 
+
+
+:: "Aspettiamo." {"position":"325,6650","size":"100,100"}
+Aspettate.
+La trasmissione continua per altre due ore e poi si interrompe da sola.
+Yuen salva tutto. Vi guardate.
+"Forse era meglio così," dice. Senza convinzione.
+Quella notte non dormi bene.
+Fine episodio 4 · percorso B
+Conoscenza: $conoscenza/10
+
+[[Torna]] 
+
+
+:: "Che tipo di segnale?"\  {"position":"75,7825","size":"100,100"}
+Torres indica un pannello laterale.
+"Non radio. Non luce. Qualcosa che i nostri strumenti rilevano come vibrazione ma che non corrisponde a nessuna frequenza conosciuta."
+"Però..." Si ferma. "I nostri analisti dicono che ha una struttura. Grammaticale."
+Ti volta verso di te.
+"Sta parlando. Non sappiamo con chi."
+
+[["Forse con noi."]]
+
+[["Forse con qualcos'altro."]]
+
+
+:: "Come lo sa?" {"position":"75,4875","size":"100,100"}
+Harlow alza gli occhi.
+"Non lo so. Ma 999 sì."
+999 si avvicina lentamente. Si ferma davanti a te. Non si butta addosso come la prima volta.
+Aspetta.
+Come se stesse chiedendo il permesso.
+
+[[Ti abbassi. Lo lasci avvicinare]]
+
+[[Resti in piedi. Lo guardi.]]
+
+
+:: "Come sa il mio nome?" {"position":"300,3050","size":"100,100"}
+049 inclina di nuovo la testa.
+"I nomi viaggiano, agente. Anche attraverso le pareti di questa struttura."
+Una pausa.
+"Ho avuto molto tempo per ascoltare."
+Non aggiunge altro. Non ne ha bisogno.
+[[ "Venga con me."]]
+
+
+:: "Cos'è il Progetto Sangue Scarlatto?" {"position":"375,6150","size":"100,100"}
+(set: $awareness to $awareness + 3)
+La tua awareness è ora $awareness/10
+
+
+Yuen abbassa la voce.
+"Non posso dirtelo qui. Non con questi microfoni."
+Si avvicina. Parla quasi sussurrando.
+"C'è un'entità. Classe Apollyon. Significa che non possiamo contenerla — solo ritardare."
+"La chiamano lo Scarlett King."
+"1548 lo conosce. E sta cercando di dirci qualcosa su di lui."
+La trasmissione cambia frequenza improvvisamente. Più forte.
+Entrambi vi voltate verso lo schermo.
+Conoscenza +3
+⚠ Soglia di attenzione raggiunta. Qualcosa cambia.
+
+[[Risposta urgente]]
+
+
+:: "Cosa dobbiamo fare?" {"position":"600,6150","size":"100,100"}
+...
+
+[[Risposta]] 
+
+
+:: "Cosa intende con non ancora?" {"position":"975,3325","size":"100,100"}
+Sbaglio.
+049 si avvicina lentamente. Non corre. Non deve.
+"Non ancora pronunciata significa che c'è ancora tempo." La voce è quasi gentile. "Per il trattamento."
+Fai un passo indietro.
+"Non si preoccupi," dice. "Faccio sempre meno male di quanto si aspettino."
+
+[[Corri]]
+
+[["Fermo. Ho detto fermo."]]
+
+
+:: "Cosa possiamo fare senza interferire ufficialmente?" {"position":"350,7950","size":"100,100"}
+.....
+
+
+[[Azione non ufficiale]]
+
+
+:: "Cosa sta facendo qui fuori?" {"position":"675,3125","size":"100,100"}
+"Cosa sto facendo." Ripete la domanda senza l'inflessione di una domanda. "Osservo. Come sempre."
+Gli occhi — se sono occhi, dentro quella maschera — si spostano su di te.
+"La pestilenza avanza anche qui. Nei corridoi. Nel personale."
+Una pausa.
+"In lei, agente. Anche se non ancora pronunciata."
+
+[["Non c'è nessuna pestilenza."]]
+
+[["Cosa intende con non ancora?"]]
+
+
+:: "Cosa teme una stella che odia l'umanità?" {"position":"25,6150","size":"100,100"}
+(set: $awareness to $awareness + 2)
+La tua awareness è ora $awareness/10
+
+
+Yuen scuote la testa lentamente.
+"Non lo so. E questo mi spaventa più di qualsiasi cosa 1548 abbia fatto prima."
+Si siede. Per la prima volta sembra stanca davvero.
+"Abbiamo catalogato entità che divorano galassie. Entità che riscrivono la realtà locale. Entità che esistono al di fuori del tempo."
+"Nessuna di loro ha mai avvertito nessuno di nient'altro."
+Una pausa lunga.
+"Questa sì."
+Conoscenza +2
+
+[[Risposta]]
+
+
+:: "Devo andare." {"position":"250,5500","size":"100,100"}
+Rapporto su SCP 999
+
+[[Episodio 4]]
+
+
+:: "Di cosa hai paura tu, Harlow?" {"position":"325,5075","size":"100,100"}
+Harlow guarda il fondo della tazza.
+"Di quello che non riusciamo a classificare," dice. "Gli SCP che capiamo — anche quelli pericolosi — hanno una logica. Una regola. Puoi imparare la regola."
+"Ma ultimamente..." Si ferma. "Ultimamente alcuni colleghi parlano di qualcosa che non segue regole. Qualcosa che viene da fuori dei sistemi che conosciamo."
+"049 te ne ha parlato?"
+Non aspetta la risposta.
+"Non importa. Finché 999 è qui, mi fido che non sia ancora il momento di preoccuparsi."
+999 fa un suono basso.
+Diverso dal solito.
+Conoscenza +1 (automatica — non registrata)
+
+[[Episodio 4]]
+
+
+:: "Dobbiamo interferire?" {"position":"350,7825","size":"100,100"}
+Torres scuote la testa.
+"Ordine del Direttore: non intervenire."
+Una pausa.
+"Però tu hai letto la nota, no?"
+Ti guarda.
+"Altrimenti non saresti qui."
+
+[["Cosa possiamo fare senza interferire ufficialmente?"]]
+
+[["Rispettiamo l'ordine."]]
+
+
+:: "Dobbiamo rispondere?" {"position":"150,6150","size":"100,100"}
+....
+[[Risposta]]
+
+
+:: "Dottore. Deve tornare alla sua cella." {"position":"350,2875","size":"100,100"}
+049 inclina la testa di lato.
+"Cella." Ripete la parola come se la stesse soppesando. "Un termine interessante per quello che considerate contenimento."
+Fa un passo verso di te. Uno solo.
+"Voi della Fondazione avete una visione molto... limitata di cosa costituisce un pericolo, $name."
+Non gli hai detto il tuo nome.
+
+[["Come sa il mio nome?"]]
+
+[[Mantieni la calma. "Venga con me" ]]
+
+
+:: "Fallo." {"position":"75,8200","size":"100,100"}
+(set: $awareness to $awareness + 1)
+La tua awareness è ora $awareness/10
+
+Torres modifica le frequenze.
+Per venti minuti non succede niente.
+Poi 2399 cambia direzione. Si allontana dalla superficie atmosferica. Torna in profondità.
+Torres guarda i dati.
+"Ha risposto," dice piano. "Non so cosa abbia detto. Ma ha risposto."
+Sul pannello secondario, una sequenza breve. Incomprensibile. Tranne una cosa — un simbolo che hai già visto. Sullo schermo di Yuen. Nella trasmissione di 1548.
+Lo stesso simbolo.
+Conoscenza +2
+I pezzi iniziano a connettersi.
+Fine episodio 5 · percorso A
+Conoscenza: $conoscenza/10
+
+[[Torna all'ufficio Post SCP 2399]]
+
+
+:: "Fermo. Ho detto fermo." {"position":"875,3550","size":"100,100"}
+Ti fermi.
+Lui si ferma.
+Un momento lunghissimo.
+"Bene," dice alla fine. "Un agente con spina dorsale."
+Si volta. Torna verso la cella senza che tu debba dire altro.
+Prima di sparire dietro l'angolo:
+"La pestilenza avanza, $nome. Che la Fondazione lo ammetta o no."
+"Qualcosa sta arrivando. Lo sento da mesi."
+"Anche i miei pazienti lo sentivano. Prima."
+La porta si chiude.
+Fine episodio 2 · percorso A
+Conoscenza: $conoscenza/10
+
+[[Torna all'ufficio]]
+
+
+:: "Forse con noi." {"position":"75,7950","size":"100,100"}
+(set: $awareness to $awareness + 1)
+La tua awareness è ora $awareness/10
+
+
+Torres annuisce lentamente.
+"Anche noi pensiamo così. Ma c'è un problema."
+Indica lo schermo.
+"Se sta cercando di comunicare con noi — perché adesso? Dopo anni di silenzio?"
+"Cosa è cambiato?"
+Entrambi sapete la risposta. O la state cominciando a capire.
+Conoscenza +1
+
+[[Azione non ufficiale]]
+
+
+:: "Forse con qualcos'altro." {"position":"200,7950","size":"100,100"}
+(set: $awareness to $awareness + 1)
+La tua awareness è ora $awareness/10
+
+Torres annuisce.
+"Sì. Anche noi lo pensiamo."
+"La domanda è: con cosa?"
+Silenzio.
+Lo schermo mostra 2399 che si avvicina ancora.
+"E perché sembra spaventata."
+Conoscenza +2
+
+[[Azione non ufficiale]]
+
+
+:: "Lo fai spesso?" {"position":"675,1050","size":"100,100"}
+[[Torna all'Ufficio]] 
+
+
+:: "Non c'è nessuna pestilenza." {"position":"675,3375","size":"100,100"}
+Per la prima volta, 049 sembra quasi divertito.
+"No." Semplice. Definitivo. "Lei la sente anche lei, agente. Anche se ha imparato a non ascoltarla."
+Si avvicina di un passo.
+"È questo che fa la Fondazione, no? Insegna a non ascoltare."
+
+[[Mantieni la calma. "Venga con me" ]]
+
+[[Non rispondi]]
+
+
+:: "Non lo so." {"position":"750,5300","size":"100,100"}
+Harlow annuisce diversamente.
+"Quella è la risposta giusta."
+999 arriva. Questa volta più lento. Più gentile, se possibile.
+
+[[Ti abbassi. Lo lasci avvicinare]] 
+
+
+:: "Non possiamo." {"position":"200,8200","size":"100,100"}
+"Giusto," dice Torres. Senza convinzione.
+Osservate in silenzio per altre due ore.
+2399 si ferma. Poi lentamente — molto lentamente — torna in profondità.
+Non saprete mai cosa stesse cercando di dire.
+Fine episodio 5 · percorso B
+Conoscenza: $conoscenza/10
+
+[[Torna all'ufficio Post SCP 2399]]
+
+
+:: "Non voglio sapere." {"position":"250,6250","size":"100,100"}
+....
+
+[[Risposta]] 
+
+
+:: "Rispettiamo l'ordine." {"position":"475,7950","size":"100,100"}
+....
+
+[["Non possiamo."]] 
+
+
+:: "Rispondiamo." {"position":"150,6750","size":"100,100"}
+Yuen invia una sequenza standard di risposta.
+La trasmissione si ferma.
+Silenzio totale per undici secondi.
+Poi riprende. Diversa. Più lenta. Come se stesse scegliendo le parole.
+Yuen ascolta. Trascrive. La sua mano trema leggermente.
+Alla fine si volta.
+"Dice: 'Troppo tardi per fermarlo. Non troppo tardi per sopravvivere.'"
+Una pausa.
+"E poi un simbolo che non riconosco."
+Lo mostra sullo schermo. È un pattern geometrico. Lo hai già visto. Non ricordi dove.
+Fine episodio 4 · percorso A
+Conoscenza: $conoscenza/10
+
+[[Torna]] 
+
+
+:: "Riusciamo a decodificarla?" {"position":"250,6025","size":"100,100"}
+(set: $awareness to $awareness + 2)
+La tua awareness è ora $awareness/10
+
+"Ci stiamo lavorando da ore."
+Yuen indica tre schermi laterali. Sequenze di simboli parzialmente tradotti.
+"Abbiamo capito alcune strutture. Ma il nucleo del messaggio usa un sistema che non abbiamo mai visto."
+Una pausa.
+"O meglio — lo abbiamo visto. Una volta. In un file che non dovrei aver letto."
+Ti guarda.
+"Livello 5. Progetto Sangue Scarlatto."
+Conoscenza +2
+
+[["Cos'è il Progetto Sangue Scarlatto?"]]
+
+[["Non voglio sapere."]]
+
+
+:: "Sta bene?" {"position":"600,4875","size":"100,100"}
+Harlow abbassa la tazza.
+"Lui? Sì."
+Una pausa.
+"Tu?"
+Non risponde per te. Aspetta.
+999 nel frattempo ha già percorso metà della distanza tra voi.
+
+[["Sì."]]
+
+[["Non lo so."]]
+
+
+:: "Sì." {"position":"675,5150","size":"100,100"}
+Harlow annuisce.
+999 arriva comunque.
+Blorp.
+
+[[Ti abbassi. Lo lasci avvicinare]] 
+
+
+:: "Terzo" {"position":"1100,950","size":"100,100"}
+Ah sì? Sei comunque un novellino.
+
+[[Conversazione Pavimento]] 
+
+
+:: "Troppo poco per capire come funziona davvero." {"position":"1150,1225","size":"100,100"}
+[[Finale B]] 
+
+
+:: "Un avvertimento per chi?" {"position":"50,6025","size":"100,100"}
+(set: $awareness to $awareness + 1)
+La tua awareness è ora $awareness/10
+
+Yuen si volta finalmente.
+Ha gli occhi di chi non dorme da troppo tempo.
+"Questa è la domanda giusta."
+Torna allo schermo. Indica una sequenza di numeri.
+"Non ci sta avvertendo di lei. Non ci sta minacciando. Sta avvertendo di qualcos'altro."
+Una pausa.
+"Qualcosa che anche lei teme."
+Conoscenza +1
+
+[["Cosa teme una stella che odia l'umanità?"]]
+
+[["Dobbiamo rispondere?"]]
+
+
+:: Accedi all'archivio segreto {"position":"1575,1725","size":"100,100"}
+FILE CLASSIFICATO — SCP-999
+<img src="https://i.pinimg.com/736x/56/20/e3/5620e3293433f0a7d0360141eed3f1af.jpg">
+Accesso registrato. Ora: $ora. Agente: $name.
+
+[[Apri File]]
+
+
+:: Annuisci {"position":"1100,775","size":"100,100"}
+Silenziose, eh?
+
+
+[[Conversazione Pavimento]] 
+
+
+:: Apri Archivio Post 1548 {"position":"250,7125","size":"100,100"}
+(set: $awareness to $awareness + 2)
+La tua awareness è ora $awareness/10
+
+
+NODO: Archivio · File 1548 · Post-episodio
+FILE CLASSIFICATO — SCP-1548 · TRASMISSIONE 7-GAMMA
+Accesso registrato. Agente: $nome.
+<img src="https://i.pinimg.com/736x/05/3d/1c/053d1c76fc8229b035f83b00258bdad1.jpg">
+
+
+Traduzione parziale — classificata Livello 4:
+"...non è come noi. Non è come voi. Viene da prima. Viene da quando le stelle erano ancora parole e le parole erano ancora fuoco..."
+"...lo abbiamo visto arrivare. Abbiamo provato a bruciare il sentiero. Non è bastato..."
+"...cercate il numero 999. È l'unica cosa che ricorda cosa viene prima di lui..."
+Conoscenza +2
+⚠ Questo file è stato registrato.
+⚠ Conoscenza totale: $conoscenza/10
+
+[[Episodio 5]]
+
+
+:: Apri Archivio Post SCP 2399 {"position":"75,8450","size":"100,100"}
+(set: $awareness to $awareness + 3)
+La tua awareness è ora $awareness/10
+
+
+FILE CLASSIFICATO — SCP-2399 · ORIGINE
+Accesso registrato. Agente: $nome.
+<img src ="https://i.pinimg.com/736x/05/3d/1c/053d1c76fc8229b035f83b00258bdad1.jpg
+">
+Nota — Direttore Calloway — massima riservatezza:
+Ipotesi classificata — Livello 5 — Progetto Sangue Scarlatto:
+SCP-2399 potrebbe essere un'entità ferita durante un conflitto precedente alla storia documentata della Fondazione. I danni rilevati sono coerenti con un'esposizione a forze di scala cosmica.
+La nostra ipotesi di lavoro — non confermata, non confermabile con gli strumenti attuali — è che 2399 abbia combattuto lo Scarlett King.
+E abbia perso.
+Sta cercando di avvertirci da anni.
+Nessuno la stava ascoltando.
+Conoscenza +3
+⚠ Questo file è stato registrato.
+⚠ Conoscenza totale: $conoscenza/10
+
+[[Episodio 6]]
+
+
+:: Apri File {"position":"1850,1700","size":"100,100"}
+(set: $awareness to $awareness + 1)
+
+La tua awareness è ora $awareness/10
+Nota interna — Dottor Harlow — non per distribuzione:
+Abbiamo condotto test sul comportamento di 999 in presenza di soggetti con esposizione prolungata a entità di classe Keter. I risultati sono anomali.
+999 sembra riconoscere qualcosa in loro. Non paura. Qualcosa di più simile a — riconoscimento.
+Ipotesi di lavoro: 999 ha una consapevolezza parziale di forze che normalmente non rientrano nel suo campo percettivo.
+Non sappiamo cosa vede.
+Non siamo sicuri di volerlo sapere.
+$awareness + 1
+⚠ Questo file è stato registrato.
+
+[[Chiudi Archivio]]
+
+
+:: Apri l'Archivio Post SCP 049 {"position":"650,4075","size":"100,100"}
+(set: $awareness to $awareness + 2)
+
+La tua awareness è ora $awareness/10
+
+FILE CLASSIFICATO — SCP-049 · NOTA INTERNA
+Accesso registrato. Agente: $nome.
+<img src ="https://i.pinimg.com/736x/56/20/e3/5620e3293433f0a7d0360141eed3f1af.jpg">
+Nota — Direttore Calloway — massima riservatezza:
+049 ha menzionato negli ultimi colloqui una anomalia nei suoi sensi. Afferma di percepire qualcosa che non riesce a classificare come pestilenza standard.
+Lo descrive come — cito testualmente — "una malattia che viene da fuori. Non dagli organismi. Dallo spazio tra di essi."
+Abbiamo incrociato questa descrizione con altri report. I risultati sono classificati Livello 5.
+Non indagate oltre senza autorizzazione.
+Conoscenza +2
+⚠ Questo file è stato registrato.
+
+
+[[Chiudi archivio]]
+
+
+:: Ascolti in silenzio. {"position":"475,6025","size":"100,100"}
+(set: $awareness to $awareness + 1)
+La tua awareness è ora $awareness/10
+
+State in silenzio.
+Il suono continua. Si ripete. Cambia leggermente ogni ciclo.
+A un certo punto capisci — non razionalmente, non con le parole — che non è un messaggio per la Fondazione.
+È un messaggio per chiunque stia ancora ascoltando.
+"Lo sente anche lei," dice Yuen piano. "Tutti lo sentono. Nessuno vuole dirlo ad alta voce."
+Conoscenza +1 (automatica)
+
+[["Cosa dobbiamo fare?"]]
+
+
+:: Aspetta {"position":"675,850","size":"100,100"}
+Ti siedi sul pavimento.
+999 ti guarda.
+Tu lo guardi.
+Silenzio.
+Blorp.
+Si avvicina lentamente, con la dignità di un essere che sa esattamente cosa sta facendo e non ha dubbi a riguardo.
+Si sistema accanto a te.
+Non sopra. Accanto.
+Una appendice gelatinosa poggia sul tuo ginocchio.
+Non sai perché, ma ti senti leggermente meglio.
+Il Dottor Harlow si libera approfittando della distrazione.
+"Grazie," dice raddrizzandosi la giacca. "Funziona sempre."
+
+[["Lo fai spesso?"]]
+
+[[Non dici niente. Stai bene così.]]
+
+
+:: Azione non ufficiale {"position":"75,8075","size":"100,100"}
+Torres apre un pannello secondario.
+"Possiamo inviare una risposta passiva. Non un segnale diretto — solo una modifica alle frequenze di fondo che i nostri satelliti già emettono."
+"Tecnicamente non stiamo interferendo."
+"Tecnicamente."
+
+[["Fallo."]]
+
+[["Non possiamo."]]
+
+
+:: Cancelli l'impronta. {"position":"200,950","size":"100,100"}
+[[Torna all'Ufficio]] 
+
+
+:: Chiudi {"position":"875,2575","size":"100,100"}
+[[ Vai al corridoio C-7]] 
+
+
+:: Chiudi Archivio {"position":"1875,1900","size":"100,100"}
+Sei inquietato ma vai a dormire sapendo ce aiuterai l'umanità domani.
+
+[[Episodio 2]] 
+
+
+:: Chiudi Archivio Pre 2399 {"position":"350,7500","size":"100,100"}
+[[ Accedi al pannello di osservazione remota]]
+
+
+:: Chiudi E Vai al settore Alfa {"position":"450,8975","size":"100,100"}
+
+
+
+:: Chiudi archivio {"position":"625,4250","size":"100,100"}
+Ho una sensazione di terrore inspiegabile eppure ho una forte uriosità di svelare il mistero...forse dovrei lasciar perdere
+
+[[Episodio 3]]
+
+
+:: Consulta l'archivio Pre SCP-682 {"position":"775,8800","size":"100,100"}
+(set: $awareness to $awareness + 1)
+La tua awareness è ora $awareness/10
+FILE CLASSIFICATO — SCP-682
+Accesso registrato. Agente: $nome.
+LEGGERE PRIMA DI PROCEDERE.
+
+SCP-682 è un rettile di dimensioni variabili con capacità rigenerativa totale. Ogni metodo di neutralizzazione tentato ha fallito. Si adatta. Impara. Odia.
+Non è una metafora neanche questa.
+682 odia gli esseri umani con qualcosa che assomiglia a convinzione filosofica.
+Cosa funziona per guadagnare tempo:
+
+Distrazioni ambientali
+Barriere fisiche temporanee
+In rari casi documentati: oggetti SCP di classe Safe usati come deterrenti
+
+Cosa non funziona:
+
+Tutto il resto
+
+Buona fortuna, agente.
+Conoscenza +1
+
+[[Chiudi E Vai al settore Alfa]]
+
+
+:: Consulta l'archivio prima {"position":"450,5750","size":"100,100"}
+(set: $awareness to $awareness + 1)
+
+La tua awareness è ora $awareness/10
+FILE CLASSIFICATO — SCP-1548
+Accesso registrato. Agente: $nome.
+<img src="https://i.imgur.com/0fvBstn.png">
+SCP-049 si definisce un medico. Non nel senso figurato.
+SCP-1548 è una stella. Nello specifico, una stella che odia l'umanità.
+Non è una metafora.
+SCP-1548 ha dimostrato capacità cognitive, comunicative e — questo è il termine che preferiamo non usare nei report ufficiali — intenzionali. Le sue trasmissioni radio contengono messaggi codificati. Il contenuto di questi messaggi è classificato.
+Quello che possiamo dirle, agente $nome:
+SCP-1548 non è sola nel suo intento.
+Conoscenza +1
+
+[[Vai al settore osservazione]]
+
+
+:: Controlla l'archivio {"position":"350,7375","size":"100,100"}
+(set: $awareness to $awareness + 1)
+La tua awareness è ora $awareness/10
+
+FILE CLASSIFICATO — SCP-2399
+Accesso registrato. Agente: $nome.
+<img src="https://i.pinimg.com/736x/c3/1d/d6/c31dd63d6ca483c9ac769fdfe994815b.jpg">
+
+SCP-2399 è una entità presente nell'atmosfera di Giove da tempo imprecisato. Non sappiamo cosa sia. Non sappiamo cosa voglia. Sappiamo che è danneggiata — i nostri sensori rilevano pattern coerenti con qualcosa che sta cercando di ripararsi.
+Ipotesi di lavoro: SCP-2399 fu colpita da qualcosa. Qualcosa di abbastanza potente da ferire un'entità di quella scala.
+Non abbiamo classificato cosa possa colpire qualcosa del genere.
+Preferiamo non farlo.
+Conoscenza +1
+
+[[Chiudi Archivio Pre 2399]]
+
+
+:: Controlla l'archivio prima di andare {"position":"800,2450","size":"100,100"}
+(set: $awareness to $awareness + 1)
+
+La tua awareness è ora $awareness/10
+Archivio · File 049 · Pre-episodio
+FILE CLASSIFICATO — SCP-049
+Accesso registrato. Agente: $name.
+<img src="https://i.pinimg.com/736x/63/1d/e6/631de6260fbb264d43314daeab5b82f3.jpg">
+SCP-049 si definisce un medico. Non nel senso figurato.
+Afferma di percepire una pestilenza negli esseri umani. Una malattia che solo lui può vedere. Il suo trattamento — chiamiamolo così — è letale per il paziente ma produce risultati che preferiamo non descrivere in questo documento.
+Non è ostile per natura. È metodico.
+La distinzione è importante quando ci sei davanti.
+Nota: SCP-049 risponde al dialogo. Usalo.
+Nota aggiuntiva: non menzionare la pestilenza per primo.
+Conoscenza +1
+
+[[Chiudi]]
+
+
+:: Conversazione Pavimento {"position":"1250,1175","size":"100,100"}
+Il Dottor Harlow vi guarda entrambi dal pavimento.
+<img src="https://i.pinimg.com/736x/3c/27/89/3c27892de0b12635e29fade761b03648.jpg">
+"Sa riconoscere chi è stressato," dice. "Non so come. Ma lo sa."
+999 fa un suono diverso. Più basso. Quasi riflessivo.
+"Lavori qui da quanto?" chiede Harlow.
+
+[["Abbastanza da smettere di fare domande."]] 
+
+[["Troppo poco per capire come funziona davvero."]] 
+
+
+:: Corri {"position":"1025,3700","size":"100,100"}
+Corri.
+049 non corre.
+Quando ti volti dopo il secondo corridoio, non lo vedi più.
+Tre ore dopo ricevi un rapporto: SCP-049 è rientrato autonomamente nella sua cella.
+Non sai perché.
+Non vuoi saperlo.
+Fine episodio 2 · percorso B
+Conoscenza: $conoscenza/10
+
+[[Torna all'ufficio]]
+
+
+:: Episodio 1 {"position":"800,575","size":"100,100"}
+Settore Giallo. Ora: 14:32.
+Apri la porta e capisci subito cosa è successo.
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReQ0WHLqJBOp2AExMJnjqRUchEVIET6fIwHZhW_usfnos1x6dcT6KU3-NB&s=10
+">
+SCP-999 — designazione ufficiale: "Il Blob Affettuoso", massa gelatinosa di colore arancione, consistenza simile a marmellata calda, peso stimato 60 kg — è seduto sopra il Dottor Harlow.
+Non sopra nel senso metaforico.
+Sopra nel senso fisico. Completamente.
+Il Dottor Harlow non si vede. Si sente solo una voce soffocata che dice:
+"...non riesco a respirare ma in realtà sto benissimo non so perché."
+SCP-999 ti guarda con quello che tecnicamente non è un volto ma che emette comunque un'espressione inequivocabile di gioia assoluta.
+Fa un suono.
+Blorp.
+Cosa fai?
+
+[[Sposta]] 
+
+[[Rapporto Prima]] 
+
+[[Aspetta]] 
+
+
+:: Episodio 2 {"position":"950,2075","size":"100,100"}
+(if: $awareness >= 10)[
+  [[→ Hub · Soglia raggiunta]]
+](else:)[
+  Il monitor mostra tre notifiche...
+]
+
+(link: "💾 Salva")[(save-game: "slot1")]
+
+(link: "📂 Carica")[(load-game: "slot1")]
+Hub · Notifica 049
+<img src="https://i.pinimg.com/originals/69/e5/1f/69e51f85d022ac41ee010e5e4d6d9c2f.gif
+">
+Sul monitor, una nuova notifica.
+ALLERTA SETTORE NERO — SCP-049
+Contenimento temporaneamente compromesso. SCP-049 si trova nel corridoio C-7. Richiesta presenza agente autorizzato per protocollo di rientro.
+Nessun ferito confermato.
+Nessun ferito ancora.
+Il caffè è ancora freddo.
+Lo bevi lo stesso.
+
+⚠ STATO CONOSCENZA: $awareness/10
+
+[[ Vai al corridoio C-7]]
+
+[[Controlla l'archivio prima di andare]] (Conoscenza +1)
+
+
+:: Episodio 3 {"position":"100,4500","size":"100,100"}
+(if: $awareness >= 10)[
+  [[→ Hub · Soglia raggiunta]]
+](else:)[
+  Il monitor mostra tre notifiche...
+]
+  
+(link: "💾 Salva")[(save-game: "slot1")]
+
+(link: "📂 Carica")[(load-game: "slot1")]
+<img src="https://i.pinimg.com/originals/69/e5/1f/69e51f85d022ac41ee010e5e4d6d9c2f.gif
+">
+Nessuna notifica urgente oggi.
+Solo una nota sul monitor:
+MEMO INTERNO — Settore Giallo SCP-999 ha chiesto di te. Non sappiamo come. Non chiederci di spiegarlo. — Dottor Harlow
+
+
+[[ Vai al settore giallo ]]
+
+[[Hai troppo lavoro.]]
+
+
+:: Episodio 4 {"position":"250,5625","size":"100,100"}
+(if: $awareness >= 10)[
+  [[→ Hub · Soglia raggiunta]]
+](else:)[
+  Il monitor mostra tre notifiche...
+]
+  
+(link: "💾 Salva")[(save-game: "slot1")]
+
+(link: "📂 Carica")[(load-game: "slot1")]
+
+<img src="https://i.pinimg.com/originals/69/e5/1f/69e51f85d022ac41ee010e5e4d6d9c2f.gif
+">
+
+ALLERTA SETTORE OSSERVAZIONE — LIVELLO 4
+Anomalia radio proveniente da SCP-1548 in corso da 14 ore.
+Contenuto: non classificabile con protocolli standard.
+Richiesta: agente con autorizzazione 3+ per analisi sul campo.
+Sotto la notifica, una nota aggiunta a mano da qualcuno:
+"Non è come le altre trasmissioni. — Dr. Yuen"
+
+[[Vai al settore osservazione]]
+
+[[Consulta l'archivio prima]] (Conoscenza +1)
+
+
+
+:: Episodio 5 {"position":"150,7275","size":"100,100"}
+(if: $awareness >= 10)[
+  [[→ Hub · Soglia raggiunta]]
+](else:)[
+  Il monitor mostra tre notifiche...
+]
+  
+(link: "💾 Salva")[(save-game: "slot1")]
+
+(link: "📂 Carica")[(load-game: "slot1")]
+
+<img src="https://i.pinimg.com/originals/69/e5/1f/69e51f85d022ac41ee010e5e4d6d9c2f.gif
+">
+
+RAPPORTO OSSERVATORI ESTERNI — SETTORE COSMICO
+Anomalia su Giove — settore 2399 — comportamento alterato rispetto ai parametri standard.
+Variazione: 2399 sembra orientato. Per la prima volta in anni di osservazione.
+Orientato verso: Terra.
+Sotto, una nota del Direttore:
+"Non interveniamo. Osserviamo. Questo è un ordine."
+Sotto ancora, scritta a penna su carta vera, attaccata con lo scotch:
+"L'ordine vale per gli altri. Tu sei diverso. — qualcuno che non può firmare questo"
+
+[[ Accedi al pannello di osservazione remota]]
+
+[[Controlla l'archivio]] (Conoscenza +1)
+
+
+:: Episodio 6 {"position":"400,8700","size":"100,100"}
+(if: $awareness >= 10)[
+  [[→ Hub · Soglia raggiunta]]
+](else:)[
+  Il monitor mostra tre notifiche...
+]
+  
+(link: "💾 Salva")[(save-game: "slot1")]
+
+(link: "📂 Carica")[(load-game: "slot1")]
+
+<img src="https://i.pinimg.com/originals/69/e5/1f/69e51f85d022ac41ee010e5e4d6d9c2f.gif
+">
+
+ALLERTA ROSSA — SETTORE ALFA
+CONTENIMENTO SCP-682 COMPROMESSO
+SCP-682 ha violato tre barriere di contenimento.
+Perdite: 2 agenti feriti, nessun deceduto.
+Richiesta immediata: strategia di ricontenimento.
+Forza non sufficiente. Serve altro.
+Sotto, dal Direttore:
+"$name. So che non è il tuo settore. Ma sei l'unico agente disponibile con il profilo giusto. Non ti chiedo di fermarlo. Ti chiedo di guadagnare tempo."
+
+[[Chiudi E Vai al settore Alfa]]
+
+[[Consulta l'archivio Pre SCP-682]] ( Conoscenza +1)
+
+
+:: Fai finta di niente {"position":"425,4100","size":"100,100"}
+Anche domani sarà un nuovo giorno...
+
+[[Episodio 3]]
+
+
+:: Fai una pausa {"position":"925,300","size":"100,100"}
+Ottimo ora ti sei preparato a dovere, hai tutto il necessario.
+<img src="https://i.pinimg.com/1200x/45/99/5c/45995c25a97f34054d3a6bccc27bc792.jpg">
+Sei pronto ad andare
+
+[[Hub Principale]] 
+
+
+:: Finale A {"position":"1425,1525","size":"100,100"}
+Harlow annuisce come se avesse già sentito quella risposta.
+"Sì. Così si sopravvive."
+999 ti guarda.
+Non dice niente — non può — ma c'è qualcosa nel modo in cui rimane lì, arancione e caldo e assolutamente presente, che somiglia molto a un disaccordo gentile.
+Ti alzi. Torni alla scrivania. Scrivi il rapporto.
+Nella sezione Note aggiuntive scrivi: nessuna anomalia rilevante.
+Non è del tutto vero.
+Fine episodio 1.
+$name — Conoscenza: $conoscenza/10
+999 aggiunto ai contatti attivi. Ti ricorderà.
+
+[[Torna all'Ufficio]] 
+
+
+:: Finale B {"position":"1225,1500","size":"100,100"}
+Harlow ti guarda diversamente.
+"Quella è la risposta giusta," dice. "Anche se nessuno te lo dirà."
+999 si sposta verso di te un'ultima volta prima che tu ti alzi. Ti lascia una piccola impronta arancione sulla manica.
+Non riesci a toglierla del tutto per il resto della giornata.
+Non ci provi troppo.
+Fine episodio 1.
+$name — Conoscenza: $awareness/10
+999 aggiunto ai contatti attivi. Ti ricorderà.
+
+[[Torna all'Ufficio]] 
+
+
+:: Hai troppo lavoro. {"position":"325,4650","size":"100,100"}
+Non vai.
+Il pomeriggio passa senza incidenti.
+Alle 18:00 trovi sulla scrivania una piccola impronta arancione su un foglio bianco.
+Non capisci come ci sia arrivata.
+Non capisci neanche perché la metti nel cassetto invece di buttarla via.
+
+[[Torna all'hub]]
+
+
+
+
+:: Hub Principale {"position":"650,450","size":"100,100"}
+(if: $awareness >= 10)[
+  [[→ Hub · Soglia raggiunta]]
+](else:)[
+  Il monitor mostra tre notifiche...
+]
+
+(link: "💾 Salva")[(save-game: "slot1")]
+
+(link: "📂 Carica")[(load-game: "slot1")]
+Bentornato, $name.
+<img src="https://i.pinimg.com/originals/69/e5/1f/69e51f85d022ac41ee010e5e4d6d9c2f.gif
+">
+La tua scrivania è un disastro controllato. Post-it ovunque. Tre rapporti da firmare. Una tazza di caffè freddo che non hai ancora buttato via perché buttarla via significherebbe ammettere che non hai tempo neanche per quello.
+Sul monitor, tre notifiche:
+RAPPORTO ATTIVO — SCP-999
+Settore giallo. Incidente minore. Nessun ferito, ma qualcuno piange.
+ARCHIVIO CLASSIFICATO
+Accesso disponibile. Livello 3 richiesto.
+⚠ Ogni file aperto viene registrato.
+STATO CONOSCENZA: $conoscenza / 10
+Tieni d'occhio questo numero, $name.
+
+⚠ STATO CONOSCENZA: $awareness/10
+
+[[Episodio 1]] 
+
+
+:: Inizia {"position":"300,150","size":"100,100"}
+(set: $awareness to 0)
+(set: $nome to "")
+<img src="https://i.pinimg.com/1200x/1f/4a/35/1f4a35cd0ec97b0823d6f0ac8c962435.jpg">
+
+Lobby
+
+Benvenuto.
+Il mondo non sa cosa esiste sotto di esso.
+Fondazioni di cemento e acciaio. Sotto quelle, tunnel. Sotto i tunnel, celle. E nelle celle — cose che non hanno nome. Cose a cui abbiamo dato un numero, perché un numero non fa paura quanto una parola.
+Tu lavori per la Fondazione SCP.
+Hai firmato documenti che non puoi mostrare a nessuno.
+Hai visto cose che non puoi raccontare a nessuno.
+Hai anche una scrivania, una tazza di caffè che si raffredda sempre troppo in fretta, e un collega che porta i calzini con i fenicotteri.
+La vita continua.
+Almeno per ora.
+
+
+
+[[Scegli nome]] 
+
+
+
+
+
+:: Mantieni la calma. "Venga con me"\  {"position":"450,3200","size":"100,100"}
+Camminate in silenzio verso la cella.
+049 non tenta niente. Cammina accanto a te come se stesse facendo una passeggiata.
+Prima che la porta si chiuda:
+"Lei è diverso dagli altri agenti, $nome."
+Una pausa.
+"Spero che rimanga così."
+Non sai esattamente cosa intende.
+Preferisci non chiederlo.
+Fine episodio 2 · percorso neutro
+Conoscenza: $conoscenza/10
+
+[[Torna all'ufficio]]
+
+
+:: Niente {"position":"1225,1850","size":"100,100"}
+Il turno finisce qui. Vai a dormire più leggero sapendo che hai aiutato l'umanità.
+
+[[Episodio 2]]
+
+
+:: Non dici niente. Lo guardi. {"position":"825,2900","size":"100,100"}
+049 ti guarda in silenzio per un tempo che sembra più lungo di quanto sia.
+"Interessante," dice alla fine. "La maggior parte parla subito. Per riempire lo spazio."
+Fa un passo di lato, non verso di te.
+"Lei aspetta. Osserva."
+Un'altra pausa.
+"Forse c'è speranza per lei."
+Non sai se è un complimento.
+
+
+:: Non dici niente. Stai bene così. {"position":"800,1025","size":"100,100"}
+[[Torna all'Ufficio]] 
+
+
+:: Non dici niente. Va bene così. {"position":"500,5050","size":"100,100"}
+State in silenzio per un tempo indefinito.
+È strano quanto sia sufficiente.
+Alla fine ti alzi. 999 non ti segue questa volta. Ti guarda andare.
+Alla porta ti volti.
+È ancora lì. Arancione. Caldo. Presente.
+Blorp. Piano. Come un arrivederci.
+
+[[Episodio 4]]
+
+
+:: Non rispondi {"position":"575,3550","size":"100,100"}
+[[Mantieni la calma. "Venga con me" ]]
+
+
+:: Osservi lo schermo in silenzio. {"position":"500,7750","size":"100,100"}
+(set: $awareness to $awareness + 1)
+La tua awareness è ora $awareness/10
+
+State in silenzio davanti allo schermo.
+2399 si muove lentamente. Quasi con cautela.
+A un certo punto Torres dice:
+"Sai cosa mi ha detto un analista ieri? Che il pattern di movimento somiglia a qualcuno che sta cercando di alzarsi."
+Una pausa.
+"Come se fosse caduto da molto tempo e stesse cercando di rimettersi in piedi."
+Conoscenza +1 (automatica)
+
+[["Forse con noi."]]
+
+
+
+:: Rapporto Prima {"position":"450,775","size":"100,100"}
+Apri il tablet. Inizi a compilare.
+Ora: 14:33. SCP-999 in stato di eccessiva affettività. Personale coinvolto: Dottor Harlow. Livello di pericolo: nullo. Livello di imbarazzo: alto.
+999 ti guarda compilare il rapporto.
+Si avvicina.
+Mette una appendice gelatinosa sul tablet.
+Blorp.
+Lascia una impronte arancione sullo schermo.
+Il rapporto ora ha una nota aggiuntiva che non hai scritto tu.
+È una forma vagamente simile a un cuore.
+Cosa fai?
+
+[[Salvi il rapporto così com'è.]]
+
+[[Cancelli l'impronta.]]
+
+
+:: Resti in piedi. Lo guardi. {"position":"200,5000","size":"100,100"}
+999 si ferma dove lo hai lasciato.
+Non insiste.
+Vi guardate per un momento.
+Harlow osserva senza commentare.
+Poi 999 si sposta di lato, lentamente, e ti lascia passare verso il centro della stanza.
+Non si avvicina più. Ma rimane vicino.
+
+[[Non dici niente. Va bene così.]]
+
+
+:: Risposta {"position":"100,6425","size":"100,100"}
+"Dobbiamo rispondere?" chiedi.
+Yuen ci pensa.
+"Non lo so. Non abbiamo protocolli per questo."
+"Ma se non rispondiamo e la trasmissione si interrompe..."
+Non finisce la frase.
+Non ne ha bisogno.
+
+[["Rispondiamo."]]
+
+[["Aspettiamo."]]
+
+
+:: Risposta urgente {"position":"375,6275","size":"100,100"}
+"Dobbiamo fare qualcosa," dici.
+"Sì," dice Yuen. "Adesso."
+
+[["Rispondiamo."]] 
+
+
+:: Salvi il rapporto così com'è. {"position":"400,1500","size":"100,100"}
+[[Torna all'Ufficio]] 
+
+
+:: Scegli nome {"position":"575,225","size":"100,100"}
+(set: $name to (prompt: "Inserisci il tuo nome", "Nome Default"))
+
+
+Lobby
+
+Benvenuto, $name.
+
+Classe di autorizzazione: 3.
+Stato psicologico: nella norma.
+Per ora.
+
+[[Hub Principale]]
+[[Fai una pausa]]
+
+
+:: Sposta {"position":"875,750","size":"100,100"}
+Ti avvicini con l'intenzione di spostarlo.
+999 ti guarda avvicinarsi.
+Si agita.
+Prima che tu possa fare qualcosa, una appendice gelatinosa arancione ti raggiunge il polso e — in modo del tutto gentile, completamente non violento, assolutamente affettuoso — ti trascina verso il basso.
+Ora sei anche tu sul pavimento.
+Accanto al Dottor Harlow.
+Sotto 999.
+Il Dottor Harlow ti guarda.
+"Secondo giorno?"
+
+[["Terzo"]] 
+[[Annuisci]] 
+
+
+:: Ti abbassi. Lo lasci avvicinare {"position":"250,5375","size":"100,100"}
+È caldo.
+Non nel senso metaforico. Proprio caldo, come una coperta appena tolta dall'asciugatrice, come una tazza di qualcosa che non si raffredda mai.
+Non sai quanto tempo passa.
+Harlow a un certo punto dice:
+"Ha questo effetto. Non è anomalo — beh, è anomalo — ma non è pericoloso. È solo..."
+Si ferma.
+"È solo che alcune cose fanno bene e basta. Anche qui dentro."
+Fuori, un'altra sirena. Più lunga.
+Questa volta ti alzi.
+
+[["Devo andare."]]
+
+
+:: Ti siedi sul pavimento senza dire niente. {"position":"350,4900","size":"100,100"}
+Ti siedi.
+999 ti raggiunge in tre secondi esatti.
+Non dice niente — non può — ma il peso caldo e arancione che ti si sistema accanto è in qualche modo più comunicativo di molte conversazioni che hai avuto di recente.
+Harlow vi guarda.
+"Sai cosa ho capito lavorando qui?" dice alla fine. "Che alcune cose anomale fanno meno paura delle cose normali."
+Fuori, da qualche parte nel complesso, una sirena suona per trenta secondi e poi si ferma.
+Nessuno si muove.
+
+[["Di cosa hai paura tu, Harlow?"]]
+
+[[Non dici niente. Va bene così.]]
+
+
+:: Torna {"position":"150,7000","size":"100,100"}
+Ora non posso fare a meno che aprire l'Archivio segreto, anzi dopo ciò che ho scoperto è di fondamentale importanza.
+
+[[Apri Archivio Post 1548]]
+
+
+
+:: Torna all'Ufficio {"position":"1175,1675","size":"100,100"}
+Dopo una giornata alla fondazione sei ritornato all'ufficio per fare rapporto, sfogliando tra i file trovi un documento d'archio strano. 
+Cosa fai?
+
+[[Niente]] 
+
+[[Accedi all'archivio segreto]] 
+
+
+:: Torna all'hub {"position":"325,4775","size":"100,100"}
+<img src="https://i.pinimg.com/originals/69/e5/1f/69e51f85d022ac41ee010e5e4d6d9c2f.gif
+">
+
+999 ti sente arrivare prima che tu apra la porta.
+Lo sai perché quando entri è già lì, a due passi dall'ingresso, con tutta la sua massa arancione gelatinosa irradiante gioia in modo quasi offensivo considerando la settimana che hai avuto.
+Blorp.
+Il Dottor Harlow è seduto in un angolo con una tazza di tè.
+"È qui da stamattina," dice senza alzare gli occhi. "Non so cosa abbia sentito ma è agitato da ieri."
+"Da quando hai incontrato 049," aggiunge dopo una pausa.
+
+[["Come lo sa?"]]
+
+[[Ti siedi sul pavimento senza dire niente.]]
+
+[["Sta bene?"]]
+
+
+:: Torna all'ufficio {"position":"475,3875","size":"100,100"}
+Un'alra giornata terminata. Stavolta c'è mancato poco, ma ne è valsa la pena. Il Medico poi ha parlato di questioni strane...
+
+Cosa fai?
+
+[[Fai finta di niente]]
+
+[[Apri l'Archivio Post SCP 049]]
+
+
+:: Torna all'ufficio Post SCP 2399 {"position":"75,8325","size":"100,100"}
+Analisi SCP 2399
+
+[[Apri Archivio Post SCP 2399]]
+
+
+:: Vai al settore osservazione {"position":"225,5875","size":"100,100"}
+Il settore osservazione è una stanza circolare con schermi ovunque. Grafici. Frequenze. Numeri che non riesci a interpretare.
+La Dottoressa Yuen è in piedi davanti allo schermo principale. Non si volta quando entri.
+"Ascolta," dice.
+Dai diffusori, un suono. Non musica. Non voce. Qualcosa nel mezzo — un pattern che si ripete con variazioni minime, come se stesse cercando la frequenza giusta.
+"Dura da stanotte," dice Yuen. "Normalmente le trasmissioni sono ostili. Aggressive. Questa è..."
+Si ferma.
+"Questa sembra quasi un avvertimento."
+
+[["Un avvertimento per chi?"]]
+
+[["Riusciamo a decodificarla?"]]
+
+[[Ascolti in silenzio.]]
+
+
+:: hal.tracks {"position":"1350,650","size":"100,100"}
+
+
+
+:: → Hub · Soglia raggiunta {"position":"650,1350","size":"100,100"}
+
