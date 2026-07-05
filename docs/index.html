@@ -15,7 +15,9 @@
  * Released under the Unlicense, and dedicated to the public domain.
 **/
 #audio-overlay{position:fixed;top:0;right:0;left:0;bottom:0;z-index:100000;background:#111}.lds-ring{display:block;position:relative;top:20%;margin:auto;width:20em;height:20em}.lds-ring div{box-sizing:border-box;display:block;position:absolute;width:18em;height:18em;margin:6px;border:6px solid #fff;border-radius:50%;-webkit-animation:lds-ring 1.2s cubic-bezier(.5,0,.5,1) infinite;animation:lds-ring 1.2s cubic-bezier(.5,0,.5,1) infinite;border-color:#fff transparent transparent transparent}.lds-ring div:nth-child(1){-webkit-animation-delay:-.45s;animation-delay:-.45s}.lds-ring div:nth-child(2){-webkit-animation-delay:-.3s;animation-delay:-.3s}.lds-ring div:nth-child(3){-webkit-animation-delay:-.15s;animation-delay:-.15s}@-webkit-keyframes lds-ring{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes lds-ring{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}input#audio-volume{width:100%;margin:2em 0}span#vol-title{position:relative;bottom:-1em;font-size:1rem;float:left}tw-link#audio-mute{display:inline-block;padding:.3em;width:90%;text-decoration:none;color:#111;background:#eee;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border:1px solid #000}tw-link#audio-mute:hover{opacity:.8}tw-link#audio-mute:active{opacity:.6}tw-link#audio-mute span{display:inline-block;width:1em;position:relative;height:1em;top:.2em;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAABF0lEQVR4Ae2VJVREYRSEB3ftuFUaLhF6I22iF7TgLr1XvAc849CwiBac9Xtm3e97cefp/Pec7+mdH0mZrGtMoBomyAEHfjGHXKg07gNxeUS3BuMAqGZswE7YcOIYgqgG7BFlSQgTAgKysC2jNjQmghFQCOpMxq+QmQgmFATU4kcq/YlgfKB1lALUqFSukRIbEwpy4BTZPM/Bu9TaQ362KAsl56sAtSR+Sgv6RCFdr/gjBYiuj65c3J0eNEmXz95TgybocvmoJj3avf5l59L1iD/WglZCP7/uh8zgeQ6epdahaZENFIPCCFvEYNPW4JdNazBGzhkj6caCbSc02DRRu0+8RR/+rb7wx6D505HxCVKvG0zpp+yknHe8MBDkT/s8AAAAAElFTkSuQmCC);background-size:contain}tw-link#audio-mute.muted span{right:4px;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAASElEQVR4Ae3WsQ0AMAjAsJ7ez9MTGEmlRGL3BJzPq6prw2DDYMNgw2DDYMOwh1kAMUygQIEC2RejANVxnVE9aDOqJ39GVZWqB5Z3r1ndBX5oAAAAAElFTkSuQmCC)}div#audio-volume{float:left}div#audio-controls{font:100% Georgia,serif;font-size:1.5em;position:fixed;width:8em;height:100%;padding:1em 2em;z-index:10000;top:0;left:0;bottom:0;background:#333;color:#eee;transition:left .3s;text-align:center}div#audio-controls.closed{left:-10.5em}div#audio-controls tw-link#audio-panel-toggle{display:inline-block;width:1.5em;position:absolute;height:1.5em;top:0;right:0;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;text-decoration:none;background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAAAYklEQVR4Ae3MsQFAMAAEQMDEagCgN4EuVTrbPcACeUBugDNeSdMQomI0PmYdTEYD9DA5jcVoBKuxGY1kNQ6jGRSaGaIj8gw1aI/KYVUSNqsSzMpiVT2zMjlVN0fqVW5o2luMGHqkQmD9cPYAAAAASUVORK5CYII=);background-size:contain}div#audio-controls.closed tw-link#audio-panel-toggle{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAAAZElEQVR4Ae3TpwGAMBQAUfrEeHB0cDhcXBSO7ehlgBw9N8BL/YZO95r6uA/UEbOv+ylfHRJ9z1BWLynKJqmWohyS6ijKOygKCpmjZYqXTTA2xUiCsShGAMw8/Q3ArFgFMHek0w3WCaR74eO2YQAAAABJRU5ErkJggg==)}@media screen and (max-width:800px){div#audio-controls.closed{left:-12em}div#audio-controls.closed tw-link#audio-panel-toggle{right:-1.5em}}div#story-menu{margin:1em 0}tw-link.story-menu{width:100%;display:block;font-weight:400;background:#ccc;font-size:.9em;padding:.1em 0;color:#111;border:1px solid #333}tw-link.story-menu.hide{display:none}tw-link.story-menu:hover{opacity:.8}tw-link.story-menu:active{opacity:.6}input[type=range].hal{-webkit-appearance:none;width:100%;margin:2.25px 0}input[type=range].hal:focus{outline:0}input[type=range].hal::-webkit-slider-runnable-track{width:100%;height:15.5px;cursor:pointer;box-shadow:.4px .4px 1px #000,0 0 .4px #0d0d0d;background:#111;border-radius:0;border:0 solid #010101}input[type=range].hal::-webkit-slider-thumb{box-shadow:0 0 2.2px rgba(17,17,17,.1),0 0 0 rgba(30,30,30,.1);border:0 solid #fff;height:20px;width:11px;border-radius:0;background:rgba(255,255,255,.93);cursor:pointer;-webkit-appearance:none;margin-top:-2.25px}input[type=range].hal:focus::-webkit-slider-runnable-track{background:#444}input[type=range].hal::-moz-range-track{width:100%;height:15.5px;cursor:pointer;box-shadow:.4px .4px 1px #000,0 0 .4px #0d0d0d;background:#111;border-radius:0;border:0 solid #010101}input[type=range].hal::-moz-range-thumb{box-shadow:0 0 2.2px rgba(17,17,17,.1),0 0 0 rgba(30,30,30,.1);border:0 solid #fff;height:20px;width:11px;border-radius:0;background:rgba(255,255,255,.93);cursor:pointer}input[type=range].hal::-ms-track{width:100%;height:15.5px;cursor:pointer;background:0 0;border-color:transparent;color:transparent}input[type=range].hal::-ms-fill-lower{background:#000;border:0 solid #010101;border-radius:0;box-shadow:.4px .4px 1px #000,0 0 .4px #0d0d0d}input[type=range].hal::-ms-fill-upper{background:#111;border:0 solid #010101;border-radius:0;box-shadow:.4px .4px 1px #000,0 0 .4px #0d0d0d}input[type=range].hal::-ms-thumb{box-shadow:0 0 2.2px rgba(17,17,17,.1),0 0 0 rgba(30,30,30,.1);border:0 solid #fff;height:20px;width:11px;border-radius:0;background:rgba(255,255,255,.93);cursor:pointer;height:15.5px}input[type=range].hal:focus::-ms-fill-lower{background:#111}input[type=range].hal:focus::-ms-fill-upper{background:#444}
-/** End of HAL code */</style><script role="script" id="twine-user-script" type="text/twine-javascript">/**
+/** End of HAL code */
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">/**
  * Harlowe Audio Library (HAL), by Chapel, v2.3.0
  * for Harlowe 2.1.0 and higher
  * Released under the Unlicense, and dedicated to the public domain.
@@ -205,11 +207,12 @@ Lo bevi lo stesso.
 
 [[Controlla l&#39;archivio prima di andare]] (Conoscenza +1)</tw-passagedata><tw-passagedata pid="19" name="Accedi all&#39;archivio segreto" tags="" position="1575,1725" size="100,100">FILE CLASSIFICATO — SCP-999
 &lt;img src=&quot;https://i.pinimg.com/736x/56/20/e3/5620e3293433f0a7d0360141eed3f1af.jpg&quot;&gt;
-Accesso registrato. Ora: $ora. Agente: $name.
-
+(text-colour:green)[Accesso registrato. Ora: $ora. Agente: $name.
+]
 [[Apri File]]</tw-passagedata><tw-passagedata pid="20" name="Apri File" tags="" position="1850,1700" size="100,100">(set: $awareness to $awareness + 1)
 
-La tua awareness è ora $awareness/10
+(text-colour:green)[La tua awareness è ora $awareness/10
+&lt;img src =&quot;https://i.pinimg.com/736x/1f/13/e5/1f13e5ba94f8313ebc86267ef4987b9d.jpg&quot;&gt;
 Nota interna — Dottor Harlow — non per distribuzione:
 Abbiamo condotto test sul comportamento di 999 in presenza di soggetti con esposizione prolungata a entità di classe Keter. I risultati sono anomali.
 999 sembra riconoscere qualcosa in loro. Non paura. Qualcosa di più simile a — riconoscimento.
@@ -218,7 +221,7 @@ Non sappiamo cosa vede.
 Non siamo sicuri di volerlo sapere.
 $awareness + 1
 ⚠ Questo file è stato registrato.
-
+]
 [[Chiudi Archivio]]</tw-passagedata><tw-passagedata pid="21" name="Chiudi Archivio" tags="" position="1875,1900" size="100,100">Sei inquietato ma vai a dormire sapendo ce aiuterai l&#39;umanità domani.
 
 [[Episodio 2]] </tw-passagedata><tw-passagedata pid="22" name="Salvi il rapporto così com&#39;è." tags="" position="400,1500" size="100,100">[[Torna all&#39;Ufficio]] </tw-passagedata><tw-passagedata pid="23" name="Cancelli l&#39;impronta." tags="" position="200,950" size="100,100">[[Torna all&#39;Ufficio]] </tw-passagedata><tw-passagedata pid="24" name="&quot;Lo fai spesso?&quot;" tags="" position="675,1050" size="100,100">[[Torna all&#39;Ufficio]] </tw-passagedata><tw-passagedata pid="25" name="Non dici niente. Stai bene così." tags="" position="800,1025" size="100,100">[[Torna all&#39;Ufficio]] </tw-passagedata><tw-passagedata pid="26" name=" Vai al corridoio C-7" tags="" position="575,2725" size="100,100">Lo vedi da lontano.
@@ -294,7 +297,9 @@ Fai un passo indietro.
 
 [[Corri]]
 
-[[&quot;Fermo. Ho detto fermo.&quot;]]</tw-passagedata><tw-passagedata pid="36" name="Mantieni la calma. &quot;Venga con me&quot; " tags="" position="450,3200" size="100,100">Camminate in silenzio verso la cella.
+[[&quot;Fermo. Ho detto fermo.&quot;]]
+
+[[Rimani lì]]</tw-passagedata><tw-passagedata pid="36" name="Mantieni la calma. &quot;Venga con me&quot; " tags="" position="450,3200" size="100,100">Camminate in silenzio verso la cella.
 049 non tenta niente. Cammina accanto a te come se stesse facendo una passeggiata.
 Prima che la porta si chiuda:
 &quot;Lei è diverso dagli altri agenti, $nome.&quot;
@@ -337,19 +342,19 @@ Conoscenza: $conoscenza/10
 
 [[Episodio 3]]</tw-passagedata><tw-passagedata pid="42" name="Apri l&#39;Archivio Post SCP 049" tags="" position="650,4075" size="100,100">(set: $awareness to $awareness + 2)
 
-La tua awareness è ora $awareness/10
+(text-colour:green)[La tua awareness è ora $awareness/10
 
 FILE CLASSIFICATO — SCP-049 · NOTA INTERNA
-Accesso registrato. Agente: $nome.
-&lt;img src =&quot;https://i.pinimg.com/736x/56/20/e3/5620e3293433f0a7d0360141eed3f1af.jpg&quot;&gt;
-Nota — Direttore Calloway — massima riservatezza:
+Accesso registrato. Agente: $nome.]
+&lt;img src =&quot;https://i.pinimg.com/736x/1f/13/e5/1f13e5ba94f8313ebc86267ef4987b9d.jpg&quot;&gt;
+(text-colour:green)[Nota — Direttore Calloway — massima riservatezza:
 049 ha menzionato negli ultimi colloqui una anomalia nei suoi sensi. Afferma di percepire qualcosa che non riesce a classificare come pestilenza standard.
 Lo descrive come — cito testualmente — &quot;una malattia che viene da fuori. Non dagli organismi. Dallo spazio tra di essi.&quot;
 Abbiamo incrociato questa descrizione con altri report. I risultati sono classificati Livello 5.
 Non indagate oltre senza autorizzazione.
 Conoscenza +2
 ⚠ Questo file è stato registrato.
-
+]
 
 [[Chiudi archivio]]</tw-passagedata><tw-passagedata pid="43" name="Chiudi archivio" tags="" position="625,4250" size="100,100">Ho una sensazione di terrore inspiegabile eppure ho una forte uriosità di svelare il mistero...forse dovrei lasciar perdere
 
@@ -431,6 +436,7 @@ Fuori, un&#39;altra sirena. Più lunga.
 Questa volta ti alzi.
 
 [[&quot;Devo andare.&quot;]]</tw-passagedata><tw-passagedata pid="53" name="Resti in piedi. Lo guardi." tags="" position="200,5000" size="100,100">999 si ferma dove lo hai lasciato.
+&lt;img src=&quot;https://i.pinimg.com/736x/b3/61/24/b3612490f0687956e8a8a9ece94fb32a.jpg&quot;&gt;
 Non insiste.
 Vi guardate per un momento.
 Harlow osserva senza commentare.
@@ -621,22 +627,21 @@ Conoscenza: $conoscenza/10
 
 [[Apri Archivio Post 1548]]
 </tw-passagedata><tw-passagedata pid="76" name="Apri Archivio Post 1548" tags="" position="250,7125" size="100,100">(set: $awareness to $awareness + 2)
-La tua awareness è ora $awareness/10
+(text-colour:orange)[La tua awareness è ora $awareness/10
 
 
-NODO: Archivio · File 1548 · Post-episodio
 FILE CLASSIFICATO — SCP-1548 · TRASMISSIONE 7-GAMMA
-Accesso registrato. Agente: $nome.
-&lt;img src=&quot;https://i.pinimg.com/736x/05/3d/1c/053d1c76fc8229b035f83b00258bdad1.jpg&quot;&gt;
+Accesso registrato. Agente: $nome.]
+&lt;img src=&quot;https://i.pinimg.com/736x/2d/1c/b8/2d1cb88b4bc4904112d7ae00c7215378.jpg&quot;&gt;
 
 
-Traduzione parziale — classificata Livello 4:
+(text-colour:orange)[Traduzione parziale — classificata Livello 4:
 &quot;...non è come noi. Non è come voi. Viene da prima. Viene da quando le stelle erano ancora parole e le parole erano ancora fuoco...&quot;
 &quot;...lo abbiamo visto arrivare. Abbiamo provato a bruciare il sentiero. Non è bastato...&quot;
 &quot;...cercate il numero 999. È l&#39;unica cosa che ricorda cosa viene prima di lui...&quot;
 Conoscenza +2
 ⚠ Questo file è stato registrato.
-⚠ Conoscenza totale: $conoscenza/10
+⚠ Conoscenza totale: $conoscenza/10]
 
 [[Episodio 5]]</tw-passagedata><tw-passagedata pid="77" name="Episodio 5" tags="" position="150,7275" size="100,100">(if: $awareness &gt;= 10)[
   [[→ Hub · Soglia raggiunta]]
@@ -772,17 +777,16 @@ Conoscenza: $conoscenza/10
 
 [[Azione non ufficiale]]</tw-passagedata><tw-passagedata pid="90" name="&quot;Rispettiamo l&#39;ordine.&quot;" tags="" position="475,7950" size="100,100">....
 
-[[&quot;Non possiamo.&quot;]] </tw-passagedata><tw-passagedata pid="91" name="Torna all&#39;ufficio Post SCP 2399" tags="" position="75,8325" size="100,100">Analisi SCP 2399
+[[&quot;Non possiamo.&quot;]] </tw-passagedata><tw-passagedata pid="91" name="Torna all&#39;ufficio Post SCP 2399" tags="" position="225,8375" size="100,100">Analisi SCP 2399
 
-[[Apri Archivio Post SCP 2399]]</tw-passagedata><tw-passagedata pid="92" name="Apri Archivio Post SCP 2399" tags="" position="75,8450" size="100,100">(set: $awareness to $awareness + 3)
-La tua awareness è ora $awareness/10
-
+[[Apri Archivio Post SCP 2399]]</tw-passagedata><tw-passagedata pid="92" name="Apri Archivio Post SCP 2399" tags="" position="250,8525" size="100,100">(set: $awareness to $awareness + 3)
+(text-colour:orange)[La tua awareness è ora $awareness/10
 
 FILE CLASSIFICATO — SCP-2399 · ORIGINE
-Accesso registrato. Agente: $name.
-&lt;img src =&quot;https://i.pinimg.com/736x/05/3d/1c/053d1c76fc8229b035f83b00258bdad1.jpg
+Accesso registrato. Agente: $name.]
+&lt;img src =&quot;https://i.pinimg.com/736x/2d/1c/b8/2d1cb88b4bc4904112d7ae00c7215378.jpg
 &quot;&gt;
-Nota — Direttore Calloway — massima riservatezza:
+(text-colour:orange)[Nota — Direttore Calloway — massima riservatezza:
 Ipotesi classificata — Livello 5 — Progetto Sangue Scarlatto:
 SCP-2399 potrebbe essere un&#39;entità ferita durante un conflitto precedente alla storia documentata della Fondazione. I danni rilevati sono coerenti con un&#39;esposizione a forze di scala cosmica.
 La nostra ipotesi di lavoro — non confermata, non confermabile con gli strumenti attuali — è che 2399 abbia combattuto lo Scarlett King.
@@ -792,8 +796,8 @@ Nessuno la stava ascoltando.
 Conoscenza +3
 ⚠ Questo file è stato registrato.
 ⚠ Conoscenza totale: $conoscenza/10
-
-[[Episodio 6]]</tw-passagedata><tw-passagedata pid="93" name="Episodio 6" tags="" position="400,8700" size="100,100">(if: $awareness &gt;= 10)[
+]
+[[Episodio 6]]</tw-passagedata><tw-passagedata pid="93" name="Episodio 7" tags="" position="475,10250" size="100,100">(if: $awareness &gt;= 10)[
   [[→ Hub · Soglia raggiunta]]
 ](else:)[
   Il monitor mostra tre notifiche...
@@ -817,7 +821,7 @@ Sotto, dal Direttore:
 
 [[Chiudi E Vai al settore Alfa]]
 
-[[Consulta l&#39;archivio Pre SCP-682]] ( Conoscenza +1)</tw-passagedata><tw-passagedata pid="94" name="Consulta l&#39;archivio Pre SCP-682" tags="" position="775,8800" size="100,100">(set: $awareness to $awareness + 1)
+[[Consulta l&#39;archivio Pre SCP-682]] ( Conoscenza +1)</tw-passagedata><tw-passagedata pid="94" name="Consulta l&#39;archivio Pre SCP-682" tags="" position="1075,10400" size="100,100">(set: $awareness to $awareness + 1)
 La tua awareness è ora $awareness/10
 FILE CLASSIFICATO — SCP-682
 Accesso registrato. Agente: $nome.
@@ -840,40 +844,66 @@ Tutto il resto
 Buona fortuna, agente.
 Conoscenza +1
 
-[[Chiudi E Vai al settore Alfa]]</tw-passagedata><tw-passagedata pid="95" name="Chiudi E Vai al settore Alfa" tags="" position="450,9100" size="100,100">Il settore Alfa odora di metallo bruciato e qualcosa che preferisci non identificare.
+[[Chiudi E Vai al settore Alfa]]</tw-passagedata><tw-passagedata pid="95" name="Chiudi E Vai al settore Alfa" tags="" position="625,10500" size="100,100">Il settore Alfa odora di metallo bruciato e qualcosa che preferisci non identificare.
 L&#39;agente Chen ti aspetta dietro una barriera di rinforzo temporanea. Ha sangue sulla manica. Non suo, spera.
 &quot;È al livello 3,&quot; dice senza preamboli. &quot;Si sta muovendo verso il corridoio principale. Abbiamo forse otto minuti.&quot;
-&quot;Abbiamo tre opzioni.&quot;
 
-[[&quot;Distrailo con qualcosa.&quot;]]
 
-[[&quot;Usiamo le barriere per convogliarlo.&quot; ]]
+⚠ CONTENIMENTO COMPROMESSO
 
-[[&quot;Avete oggetti SCP disponibili?&quot;]]</tw-passagedata><tw-passagedata pid="96" name="&quot;Distrailo con qualcosa.&quot;" tags="" position="200,9200" size="100,100">&quot;Con cosa?&quot; chiede Chen.
+SCP-682 sta sfondando le barriere. Hai &lt;span id=&quot;timer682&quot; style=&quot;color: #ff4444; font-weight: bold; font-family: monospace;&quot;&gt;15&lt;/span&gt; secondi per decidere.
+
+I team non reggeranno ancora a lungo.
+
+&lt;span id=&quot;link-morte&quot; style=&quot;display:none&quot;&gt;[[→ morte|682 · Morte · Troppo lenti]]&lt;/span&gt;
+
+
+
+[[&quot;Distrailo con qualcosa.&quot;]] 
+[[&quot;Usiamo le barriere per convogliarlo.&quot;]] 
+[[&quot;Avete oggetti SCP disponibili?&quot;]] 
+[[&quot;Attacchiamolo direttamente.&quot;]] 
+
+
+
+&lt;script&gt;
+var sec682 = 10;
+var el682 = document.getElementById(&quot;timer682&quot;);
+var iv682 = setInterval(function() {
+    sec682--;
+    if (el682) el682.textContent = sec682;
+    if (sec682 &lt;= 5 &amp;&amp; el682) el682.style.color = &quot;orange&quot;;
+    if (sec682 &lt;= 0) {
+        clearInterval(iv682);
+        document.querySelector(&quot;#link-morte tw-link&quot;).click();
+    }
+}, 1000);
+&lt;/script&gt;
+</tw-passagedata><tw-passagedata pid="96" name="&quot;Distrailo con qualcosa.&quot;" tags="" position="500,10875" size="100,100">&quot;Con cosa?&quot; chiede Chen.
 
 [[&quot;Rumore. Esplosioni controllate nell&#39;ala ovest.&quot;]]
 
-[[&quot;Qualcosa che si muove. Un drone.&quot;]]</tw-passagedata><tw-passagedata pid="97" name="&quot;Usiamo le barriere per convogliarlo.&quot; " tags="" position="425,9225" size="100,100">Chen annuisce.
+[[&quot;Qualcosa che si muove. Un drone.&quot;]]</tw-passagedata><tw-passagedata pid="97" name="&quot;Usiamo le barriere per convogliarlo.&quot;" tags="" position="825,10800" size="100,100">Chen annuisce.
 &quot;Rischia di venirci addosso se sbagliamo l&#39;angolo.&quot;
 
 [[&quot;Lo so. Fatelo.&quot;]]
 
-[[&quot;Aspetta, c&#39;è un&#39;altra via.&quot;]]</tw-passagedata><tw-passagedata pid="98" name="&quot;Avete oggetti SCP disponibili?&quot;" tags="" position="775,9175" size="100,100">Chen ci pensa.
+[[&quot;Aspetta, c&#39;è un&#39;altra via.&quot;]]</tw-passagedata><tw-passagedata pid="98" name="&quot;Avete oggetti SCP disponibili?&quot;" tags="" position="1050,10825" size="100,100">Chen ci pensa.
 &quot;Abbiamo SCP-131 nelle vicinanze. Le &#39;occhine&#39;. Non fanno niente di offensivo ma 682 le evita sempre. Non sappiamo perché.&quot;
-
+&lt;img src=&quot;https://i.pinimg.com/1200x/5f/f9/bd/5ff9bd31158e174284ece63a35b1cf35.jpg&quot;&gt;
 [[ &quot;Usatele come deterrente.&quot; ]]
 
-[[&quot;Troppo rischioso per loro.&quot;]]</tw-passagedata><tw-passagedata pid="99" name="&quot;Rumore. Esplosioni controllate nell&#39;ala ovest.&quot;" tags="" position="200,9325" size="100,100">Funziona per quattro minuti.
+[[&quot;Troppo rischioso per loro.&quot;]]</tw-passagedata><tw-passagedata pid="99" name="&quot;Rumore. Esplosioni controllate nell&#39;ala ovest.&quot;" tags="" position="475,11000" size="100,100">Funziona per quattro minuti.
 682 si sposta verso ovest. I team di contenimento guadagnano tempo. Le barriere vengono rinforzate.
 Poi 682 capisce che è una trappola.
 Si adatta. Torna.
 Ma quei quattro minuti bastano.
 
-[[Contenimento temporaneo]]</tw-passagedata><tw-passagedata pid="100" name="&quot;Qualcosa che si muove. Un drone.&quot;" tags="" position="75,9325" size="100,100">Il drone dura novanta secondi.
+[[Contenimento temporaneo]]</tw-passagedata><tw-passagedata pid="100" name="&quot;Qualcosa che si muove. Un drone.&quot;" tags="" position="350,11000" size="100,100">Il drone dura novanta secondi.
 Poi 682 lo distrugge con un movimento solo e riprende la direzione originale.
 Ma novanta secondi usati bene sono sufficienti.
 
-[[Contenimento temporaneo]]</tw-passagedata><tw-passagedata pid="101" name="Contenimento temporaneo" tags="" position="225,9700" size="100,100">682 è contenuto. Temporaneamente. Come sempre.
+[[Contenimento temporaneo]]</tw-passagedata><tw-passagedata pid="101" name="Contenimento temporaneo" tags="" position="575,11325" size="100,100">682 è contenuto. Temporaneamente. Come sempre.
 Chen si appoggia alla parete. Respira.
 &quot;Bravo lavoro.&quot;
 Una pausa.
@@ -886,12 +916,12 @@ Conoscenza +1 (automatica)
 Fine episodio 6.
 Conoscenza: $conoscenza/10
 
-[[Torna all&#39;ufficio Post Missione SCP 682]]</tw-passagedata><tw-passagedata pid="102" name="&quot;Aspetta, c&#39;è un&#39;altra via.&quot;" tags="" position="550,9375" size="100,100">[[&quot;Distrailo con qualcosa.&quot;]]</tw-passagedata><tw-passagedata pid="103" name="&quot;Lo so. Fatelo.&quot;" tags="" position="400,9475" size="100,100">Le barriere vengono posizionate. 682 viene guidato — non fermato, guidato — verso la cella di contenimento rinforzata.
+[[Torna all&#39;ufficio Post Missione SCP 682]]</tw-passagedata><tw-passagedata pid="102" name="&quot;Aspetta, c&#39;è un&#39;altra via.&quot;" tags="" position="900,11150" size="100,100">[[&quot;Distrailo con qualcosa.&quot;]]</tw-passagedata><tw-passagedata pid="103" name="&quot;Lo so. Fatelo.&quot;" tags="" position="600,11100" size="100,100">Le barriere vengono posizionate. 682 viene guidato — non fermato, guidato — verso la cella di contenimento rinforzata.
 Non è felice.
 Lo fa capire in modo molto fisico a due barriere di acciaio.
 Ma funziona.
 
-[[Contenimento temporaneo]]</tw-passagedata><tw-passagedata pid="104" name=" &quot;Usatele come deterrente.&quot; " tags="" position="675,9375" size="100,100">Le due piccole entità simili a occhi vengono posizionate nel corridoio.
+[[Contenimento temporaneo]]</tw-passagedata><tw-passagedata pid="104" name=" &quot;Usatele come deterrente.&quot; " tags="" position="1025,11150" size="100,100">Le due piccole entità simili a occhi vengono posizionate nel corridoio.
 682 arriva. Si ferma.
 Le guarda.
 Loro lo guardano.
@@ -900,20 +930,20 @@ Quindici secondi di standoff cosmico tra un rettile indistruttibile che odia tut
 I team di contenimento completano il lavoro.
 Nessuno capisce cosa sia successo. Nessuno lo documenterà ufficialmente.
 
-[[Contenimento temporaneo]]</tw-passagedata><tw-passagedata pid="105" name="&quot;Troppo rischioso per loro.&quot;" tags="" position="800,9375" size="100,100">....non ci tocca che una strada
+[[Contenimento temporaneo]]</tw-passagedata><tw-passagedata pid="105" name="&quot;Troppo rischioso per loro.&quot;" tags="" position="1150,11150" size="100,100">....non ci tocca che una strada
 
-[[&quot;Usiamo le barriere per convogliarlo.&quot; ]]</tw-passagedata><tw-passagedata pid="106" name="Torna all&#39;ufficio Post Missione SCP 682" tags="" position="225,9825" size="100,100">Analisi eventi SCP 682
+[[&quot;Usiamo le barriere per convogliarlo.&quot;]]</tw-passagedata><tw-passagedata pid="106" name="Torna all&#39;ufficio Post Missione SCP 682" tags="" position="575,11450" size="100,100">Analisi eventi SCP 682
 
-[[Apri l&#39;Archivio Post SCP 682]]</tw-passagedata><tw-passagedata pid="107" name="Apri l&#39;Archivio Post SCP 682" tags="" position="225,9950" size="100,100">(set: $awareness to $awareness + 3)
-La tua awareness è ora $awareness/10
+[[Apri l&#39;Archivio Post SCP 682]]</tw-passagedata><tw-passagedata pid="107" name="Apri l&#39;Archivio Post SCP 682" tags="" position="575,11575" size="100,100">(set: $awareness to $awareness + 3)
+[(text-colour:red)[La tua awareness è ora $awareness/10
 
 
 
 FILE CLASSIFICATO — SCP-682 · NOTA INTERNA
-Accesso registrato. Agente: $name.
+Accesso registrato. Agente: $name.]]
 &lt;img src =&quot;https://i.pinimg.com/736x/05/3d/1c/053d1c76fc8229b035f83b00258bdad1.jpg
 &quot;&gt;
-Trascrizione colloquio — SCP-682 — sessione 31:
+(text-colour:red)[Trascrizione colloquio — SCP-682 — sessione 31:
 Ricercatore: &quot;Cosa ti spaventa?&quot;
 SCP-682: [silenzio — 14 secondi]
 SCP-682: &quot;Non mi spaventa niente di quello che voi chiamate anomalo.&quot;
@@ -924,9 +954,197 @@ SCP-682: &quot;C&#39;è qualcosa che viene. Che non è come me. Non è come voi.
 [Fine trascrizione]
 Conoscenza +3
 ⚠ Questo file è stato registrato.
-⚠ Conoscenza totale: $conoscenza/10
+⚠ Conoscenza totale: $conoscenza/10]
 
-[[Chiudi l&#39;archivio Post SCP 682]]</tw-passagedata><tw-passagedata pid="108" name="Chiudi l&#39;archivio Post SCP 682" tags="" position="225,10075" size="100,100">(if: $awareness &gt;= 10)[
+[[Chiudi l&#39;archivio Post SCP 682]]</tw-passagedata><tw-passagedata pid="108" name="Chiudi l&#39;archivio Post SCP 682" tags="" position="425,11775" size="100,100">(if: $awareness &gt;= 10)[
+  [[→ Hub · Soglia raggiunta]]
+](else:)[
+  Il monitor mostra tre notifiche...
+]
+  
+(link: &quot;💾 Salva&quot;)[(save-game: &quot;slot1&quot;)]
+
+(link: &quot;📂 Carica&quot;)[(load-game: &quot;slot1&quot;)]
+
+&lt;img src=&quot;https://i.pinimg.com/originals/69/e5/1f/69e51f85d022ac41ee010e5e4d6d9c2f.gif
+&quot;&gt;
+
+[[Scarlett King]]</tw-passagedata><tw-passagedata pid="109" name="Segui l&#39;impronta" tags="" position="950,12125" size="100,100"></tw-passagedata><tw-passagedata pid="110" name="Main Menu" tags="" position="100,175" size="200,200">
+(track: &#39;music&#39; , &#39;loop&#39;, true)
+(track: &#39;music&#39; , &#39;playwhenpossible&#39;)
+&lt;img src=&quot;https://i.pinimg.com/1200x/1f/4a/35/1f4a35cd0ec97b0823d6f0ac8c962435.jpg&quot;&gt;
+
+(text-colour:red)[SCP Project]
+
+//By Said Serbouti
+//
+[[Inizia]] 
+
+[[Opzioni]]
+
+[[Crediti]]</tw-passagedata><tw-passagedata pid="111" name="Opzioni" tags="" position="100,300" size="100,100">[[Main Menu]] </tw-passagedata><tw-passagedata pid="112" name="Crediti" tags="" position="225,300" size="100,100">[[Main Menu]] </tw-passagedata><tw-passagedata pid="113" name="Passaggio senza titolo 1" tags="" position="2100,10950" size="100,100">Atto finale · Lo Scarlett King
+
+&lt;img src=&quot;https://i.pinimg.com/1200x/b0/91/64/b091645ca1f79e28217e6bd5769fbd77.jpg&quot;&gt;
+
+(text-colour:red)[
+To Be Continued...]</tw-passagedata><tw-passagedata pid="114" name="Episodio 6" tags="" position="225,8675" size="100,100">(if: $awareness &gt;= 10)[
+  [[→ Hub · Soglia raggiunta]]
+](else:)[
+  Il monitor mostra tre notifiche...
+]
+  
+(link: &quot;💾 Salva&quot;)[(save-game: &quot;slot1&quot;)]
+
+(link: &quot;📂 Carica&quot;)[(load-game: &quot;slot1&quot;)]
+
+&lt;img src=&quot;https://i.pinimg.com/originals/69/e5/1f/69e51f85d022ac41ee010e5e4d6d9c2f.gif
+&quot;&gt;
+
+
+ALLERTA SETTORE NERO — LIVELLO 5
+SCP-096 in stato di agitazione acuta.
+Causa: esposizione visiva non autorizzata — fonte non identificata.
+Personale evacuato. Corridoio D-4 chiuso.
+Richiesta: agente per valutazione e contenimento.
+Sotto, scritto a mano su un post-it attaccato al monitor:
+&quot;Non guardarlo. Non guardarlo. Non guardarlo.&quot;
+Il post-it non è tuo.
+Non sai di chi sia.
+
+[[Vai al corridoio D-4]]
+
+[[ Consulta l&#39;archivio Pre SCP 096]] (Conoscenza +1)</tw-passagedata><tw-passagedata pid="115" name="Vai al corridoio D-4" tags="" position="225,8975" size="100,100">Il corridoio è vuoto.
+Le luci di emergenza proiettano ombre rosse sulle pareti. In fondo, seduto contro il muro, c&#39;è qualcosa di bianco e lungo e immobile.
+Non guardi in quella direzione.
+Sai già che è lì.
+L&#39;agente Park ti aspetta dietro l&#39;angolo, pallido come qualcuno che ha appena smesso di correre.
+&quot;È seduto da venti minuti,&quot; sussurra. &quot;Non si è mosso. Il problema è la sacca — si è staccata durante l&#39;incidente. Dobbiamo rimetterla.&quot;
+Ti allunga una sacca opaca di contenimento.
+&quot;Devi avvicinarti da dietro. Occhi a terra. Sempre.&quot;
+Una pausa.
+&quot;Sempre.&quot;
+
+[[&quot;Capito. Come procedo?&quot;]]
+
+[[&quot;Chi lo ha guardato?&quot;]]
+
+[[&quot;Sono pronto. Andiamo.&quot;]]</tw-passagedata><tw-passagedata pid="116" name=" Consulta l&#39;archivio Pre SCP 096" tags="" position="425,8750" size="100,100">(set: $awareness to $awareness + 1)
+La tua awareness è ora $awareness/10
+FILE CLASSIFICATO — SCP-096
+Accesso registrato. Agente: $nome.
+LEGGERE CON ATTENZIONE. NON SALTARE.
+&lt;img src=&quot;https://i.pinimg.com/736x/05/a8/11/05a8110156685e98d423e1d33b6ef973.jpg&quot;&gt;
+
+&lt;img src=&quot;https://i.pinimg.com/1200x/ca/68/84/ca6884d60f1437f17d15ce580502dc85.jpg&quot;&gt;
+SCP-096 è un&#39;entità umanoide, altezza circa 2,3 metri, estrema magrezza. In stato neutro rimane seduto, testa tra le mani, immobile.
+Regola assoluta: non guardare il volto di SCP-096.
+Chiunque veda il volto di SCP-096 — direttamente, in fotografia, in qualsiasi riproduzione — viene designato come bersaglio. SCP-096 raggiungerà il bersaglio ovunque si trovi. Senza eccezioni. Senza ritardo.
+Non esiste modo di fermarlo una volta attivato.
+Protocollo di contenimento:
+Sacca opaca sulla testa. Occhi sempre abbassati. Nessun contatto visivo diretto o indiretto.
+Nota: non esiste un &quot;quasi guardarlo&quot;. O non lo guardi o sei già morto.
+Conoscenza +1
+[[Chiudi Archivio ]]</tw-passagedata><tw-passagedata pid="117" name="Chiudi Archivio " tags="" position="500,8900" size="100,100">Considewrazioni su scp 96
+
+[[Vai al corridoio D-4]]
+</tw-passagedata><tw-passagedata pid="118" name="&quot;Capito. Come procedo?&quot;" tags="" position="275,9225" size="100,100">&quot;Cammini rasente la parete sinistra,&quot; dice Park. &quot;096 è contro quella destra. Non incrociare mai la linea centrale del corridoio.&quot;
+&quot;Quando sei abbastanza vicino — tre metri, non di più — apri la sacca e la cali dall&#39;alto sulla testa. Movimento fluido. Niente esitazioni.&quot;
+&quot;Se esiti, lui sente.&quot;
+&quot;E se sente, guarda su.&quot;
+Ti guarda.
+&quot;Non guardare su.&quot;
+
+[[Avanza nel corridoio]]</tw-passagedata><tw-passagedata pid="119" name="&quot;Chi lo ha guardato?&quot;" tags="" position="475,9250" size="100,100">Park deglutisce.
+&quot;Un ricercatore nuovo. Ha aperto la porta sbagliata.&quot;
+Una pausa lunga.
+&quot;Non è più qui.&quot;
+Non aggiunge altro. Non ne ha bisogno.
+
+[[&quot;Capito. Come procedo?&quot;]]</tw-passagedata><tw-passagedata pid="120" name="&quot;Sono pronto. Andiamo.&quot;" tags="" position="750,9300" size="100,100">[[Avanza nel corridoio]]</tw-passagedata><tw-passagedata pid="121" name="Avanza nel corridoio" tags="" position="250,9425" size="100,100">Entri nel corridoio.
+Occhi a terra.
+Il pavimento è grigio cemento. Vedi le tue scarpe. Vedi le giunture dei pannelli. Vedi una macchia scura vicino alla parete destra che non vuoi identificare.
+Avanzi lentamente.
+Il silenzio è totale tranne il tuo respiro.
+Dieci metri.
+Otto.
+Cinque.
+Qualcosa cambia nell&#39;aria. Una presenza. Un peso.
+Sei a tre metri.
+
+[[Cali la sacca: movimento fluido]]
+
+[[Ti fermi un secondo: vuoi essere sicuro della posizione]]
+
+[[Alzi gli occhi per controllare]]</tw-passagedata><tw-passagedata pid="122" name="Cali la sacca: movimento fluido" tags="" position="175,9900" size="100,100">
+La sacca scende.
+Movimento fluido. Nessuna esitazione.
+SCP-096 non si muove.
+Resti immobile per cinque secondi che sembrano cinque anni.
+Poi, lentamente, torni indietro. Occhi a terra. Rasente la parete sinistra.
+Park ti aspetta dietro l&#39;angolo. Ha trattenuto il respiro per tutta la durata.
+&quot;Fatto?&quot;
+&quot;Fatto.&quot;
+Non aggiunge altro. Tu neanche.
+A volte non ci sono parole giuste. Ci sono solo le cose che hai fatto e quelle che non farai mai più.
+Fine episodio 096.
+Conoscenza: $conoscenza/10
+
+[[Torna all&#39;ufficio Post SCP 096 e Apri l&#39;archivio Post 096]] </tw-passagedata><tw-passagedata pid="123" name="Ti fermi un secondo: vuoi essere sicuro della posizione" tags="" position="275,9550" size="100,100">Ti fermi.
+Un millisecondo di pausa.
+Senti qualcosa muoversi.
+Prima che tu possa reagire, un suono — non un urlo, qualcosa di peggio — riempie il corridoio.
+SCP-096 si è alzato.
+— Fine —
+(text-colour:red)[SEI MORTO.]
+[[ Ricomincia dall&#39;episodio SCP 096]]</tw-passagedata><tw-passagedata pid="124" name="Alzi gli occhi per controllare" tags="" position="475,9550" size="100,100">Alzi gli occhi.
+Un secondo. Meno di un secondo.
+È abbastanza.
+Il volto di SCP-096 è già verso di te.
+Non ricordi altro.
+— Fine —
+(text-colour:red)[SEI MORTO.]
+SCP-096 ha raggiunto il suo bersaglio.
+Tempo di sopravvivenza: insufficiente.
+La Fondazione registra un altro incidente.
+
+[[ Ricomincia dall&#39;episodio SCP 096]]</tw-passagedata><tw-passagedata pid="125" name=" Ricomincia dall&#39;episodio SCP 096" tags="" position="325,9675" size="100,100">
+(text-colour:red)[Game Over
+L&#39;esitazione costa cara in settore nero.
+Riprova. Non fermarti.]
+
+
+[[Episodio 6]]</tw-passagedata><tw-passagedata pid="126" name="Torna all&#39;ufficio Post SCP 096 e Apri l&#39;archivio Post 096" tags="" position="300,10025" size="100,100">(set: $awareness to $awareness + 2)
+La tua awareness è ora $awareness/10
+(text-colour:(hsl:0,0.8039,0.5,0.8))[FILE CLASSIFICATO — SCP-096 · NOTA COMPORTAMENTALE
+Accesso registrato. Agente: $nome.
+&lt;img src=&quot;https://i.pinimg.com/736x/05/3d/1c/053d1c76fc8229b035f83b00258bdad1.jpg
+&quot;&gt;
+Osservazione anomala — Dr. Park — riservata:
+Negli ultimi mesi 096 mostra un comportamento insolito in stato neutro. Invece di rimanere seduto con la testa tra le mani come da protocollo, in alcune sessioni è stato osservato rivolto verso un punto specifico della cella.
+Sempre lo stesso punto. Sempre la stessa direzione.
+Abbiamo calcolato la traiettoria.
+Punta verso l&#39;esterno della struttura. Verso qualcosa di molto lontano.
+Non sappiamo cosa stia guardando.
+Non siamo sicuri di volerlo sapere.
+Conoscenza +2
+⚠ Questo file è stato registrato.]
+
+[[Episodio 7]] </tw-passagedata><tw-passagedata pid="127" name="Rimani lì" tags="" position="1100,3450" size="100,100">Resti immobile.
+049 si avvicina.
+La mano guantata tocca la tua spalla — gentile, quasi professionale.
+&quot;Non si preoccupi,&quot; dice. &quot;Faccio sempre meno male di quanto si aspettino.&quot;
+Aveva ragione.
+(text-colour:(hsl:0,0.8039,0.5,0.65))[SEI MORTO.]
+SCP-049 ha completato il suo trattamento.
+La Fondazione registra un nuovo paziente.
+
+[[Ricomincia dall&#39;episodio SCP 049]]</tw-passagedata><tw-passagedata pid="128" name="Ricomincia dall&#39;episodio SCP 049" tags="" position="1100,3575" size="100,100">
+(text-colour:red)[Game Over
+L&#39;esitazione costa cara in settore nero.
+Riprova. Non fermarti.]
+
+
+[[Episodio 2]]</tw-passagedata><tw-passagedata pid="129" name="Scarlett King" tags="" position="425,11900" size="100,100">(if: $awareness &gt;= 10)[
   [[→ Hub · Soglia raggiunta]]
 ](else:)[
   Il monitor mostra tre notifiche...
@@ -950,25 +1168,36 @@ Non sai come ci sia arrivata.
 Ma sai chi ti ha trovato.
 Blorp. Da qualche parte nel corridoio.
 
-[[Segui l&#39;impronta]]</tw-passagedata><tw-passagedata pid="109" name="Segui l&#39;impronta" tags="" position="225,10200" size="100,100">Atto finale · Lo Scarlett King
-
-&lt;img src=&quot;https://i.pinimg.com/1200x/b0/91/64/b091645ca1f79e28217e6bd5769fbd77.jpg&quot;&gt;
+[[Segui l&#39;impronta]]</tw-passagedata><tw-passagedata pid="130" name="682 · Morte · Troppo lenti" tags="" position="1475,10700" size="100,100">
 
 
-To Be Continued...</tw-passagedata><tw-passagedata pid="110" name="Main Menu" tags="" position="100,175" size="200,200">
-(track: &#39;music&#39; , &#39;loop&#39;, true)
-(track: &#39;music&#39; , &#39;playwhenpossible&#39;)
-&lt;img src=&quot;https://i.pinimg.com/1200x/1f/4a/35/1f4a35cd0ec97b0823d6f0ac8c962435.jpg&quot;&gt;
 
-(text-colour:red)[SCP Project]
+I team non fanno in tempo.
+682 sfonda la barriera temporanea.
+L&#39;ultimo pensiero che hai è che avresti dovuto scegliere prima.
+(text-colour:(hsl:0,0.8039,0.5,0.65))[SEI MORTO.]
+SCP-682 ha violato il perimetro.
+Perdite: 1 agente.
+Contenimento ripristinato dopo 4 ore.
 
-//By Said Serbouti
-//
-[[Inizia]] 
 
-[[Opzioni]]
+(aggiungendo timer)
+[[Ricomincia dall&#39;episodio SCP 682]]</tw-passagedata><tw-passagedata pid="131" name="Ricomincia dall&#39;episodio SCP 682" tags="" position="1425,11000" size="100,100">(text-colour:red)[Game Over
+L&#39;esitazione costa cara in settore nero.
+Riprova. Non fermarti.]
 
-[[Crediti]]</tw-passagedata><tw-passagedata pid="111" name="Opzioni" tags="" position="100,300" size="100,100">[[Main Menu]] </tw-passagedata><tw-passagedata pid="112" name="Crediti" tags="" position="225,300" size="100,100">[[Main Menu]] </tw-passagedata></tw-storydata>
+
+[[Episodio 7]]</tw-passagedata><tw-passagedata pid="132" name="&quot;Attacchiamolo direttamente.&quot;" tags="" position="1200,10825" size="100,100">Chen ti guarda.
+&quot;Non funziona mai.&quot;
+Lo sai anche tu. Lo fai lo stesso.
+682 si adatta in tempo reale. Ogni punto debole che trovi esiste per trenta secondi. Poi non esiste più.
+Alla fine non hai più opzioni.
+(text-colour:(hsl:0,0.8039,0.5,0.65))[SEI MORTO.]
+SCP-682 è indistruttibile.
+Questo era documentato.
+Hai letto il file.
+
+[[Ricomincia dall&#39;episodio SCP 682]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">(function(){"use strict";
 var require,define;!function(){var e={},r={};require=function(i){var n=e[i];return n&&(r[i]=n[1].apply(void 0,n[0].map(require)),e[i]=void 0),r[i]},(define=function(r,i,n){if("function"==typeof r)return r();e[r]=[i,n]}).amd=!0}();/*!
  * https://github.com/paulmillr/es6-shim
